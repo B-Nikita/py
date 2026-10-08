@@ -1,0 +1,447 @@
+{
+ "input": "samples/scanned_page.png",
+ "output": "samples/output/scanned_page.pseudo.png",
+ "target": "German",
+ "translator": "pseudo",
+ "seconds": 13.8,
+ "pages": [
+  {
+   "page": 1,
+   "scanned": true,
+   "blocks": [
+    {
+     "id": "p1b0",
+     "rect": [
+      76.3,
+      84.2,
+      621.4,
+      141.4
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Translating Documents Without Losing Layout",
+     "translation": "Trààñslàtîñgën Dööçüméñtsën Wîîthöütën Löösîñgën Lààýöütën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b1",
+     "rect": [
+      76.3,
+      146.6,
+      414.2,
+      160.8
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "A practical guide for operations teams - 2026 edition",
+     "translation": "À prààçtîçàlën güüîdé för ööpéràtîöñsën tééàms - 2026 éédîtîöñën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b2",
+     "rect": [
+      76.3,
+      224.4,
+      194.9,
+      241.0
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Why it matters",
+     "translation": "Whý ît mààttérsën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b3",
+     "rect": [
+      421.0,
+      224.4,
+      612.0,
+      241.0
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "How the pipeline works",
+     "translation": "Höw thé pîîpélîñéën wöörks",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b4",
+     "rect": [
+      76.1,
+      255.1,
+      373.4,
+      352.3
+     ],
+     "align": "justify",
+     "cell": false,
+     "source": "Large language models have changed how organisations handle multilingual documents. Instead of sending every contract to an agency, teams can now produce a first-pass translation in minutes and route only the sensitive sections to human reviewers.",
+     "translation": "Lààrgé lààñgüàgéën möödélsën hààvé çhààñgédën höw öörgàñîsàtîöñsën hààñdléën müültîlîñgüàlën dööçüméñts.ën ÎÎñstéàdën öf sééñdîñgën éévérý çööñtràçtën tö àñ ààgéñçý,ën tééàms çàñ ñöw pröödüçéën à fîîrst-pàssën trààñslàtîöñën îñ mîîñütésën àñd rööüté ööñlý thé sééñsîtîvéën sééçtîöñsën tö hüümàñ réévîéwérs.ën",
+     "scale": 0.97,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b5",
+     "rect": [
+      420.0,
+      254.9,
+      717.1,
+      302.4
+     ],
+     "align": "justify",
+     "cell": false,
+     "source": "Our pipeline keeps every vector graphic, image and background in place and replaces only the text, so tables keep their borders and shading.",
+     "translation": "Öür pîîpélîñéën kéééps éévérý vééçtörën grààphîç,ën îîmàgé àñd bààçkgröüñdën îñ plààçé àñd rééplàçésën ööñlý thé tééxt, sö tààblésën kééép thééîr böördérsën àñd shààdîñg.ën",
+     "scale": 0.99,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b6",
+     "rect": [
+      420.0,
+      323.0,
+      717.6,
+      422.4
+     ],
+     "align": "justify",
+     "cell": false,
+     "source": "Text expansion is the main risk: German or French output is often thirty percent longer than English. The renderer first grows each box into free space, then shrinks the font within a safe limit, and finally asks the model for a shorter phrasing when nothing else works.",
+     "translation": "Tééxt ééxpàñsîöñën îs thé mààîñ rîîsk: Géérmàñën ör Frééñçhën ööütpütën îs ööftéñ thîîrtýën péérçéñtën lööñgérën thààñ ÉÉñglîsh.ën Thé rééñdérérën fîîrst grööws ééàçh böx îîñtö frééé spààçé,ën thééñ shrîîñksën thé fööñt wîîthîñën à sààfé lîîmît,ën àñd fîîñàllýën ààsks thé möödél för à shöörtérën phrààsîñgën whééñ ñööthîñgën éélsé wöörks.ën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b7",
+     "rect": [
+      76.3,
+      375.1,
+      373.4,
+      457.4
+     ],
+     "align": "justify",
+     "cell": false,
+     "source": "The hard part is not the translation itself but the layout. Invoices, brochures and scientific papers mix columns, tables, captions and footnotes, and readers expect the translated file to look exactly like the original.",
+     "translation": "Thé hààrd pààrt îs ñöt thé trààñslàtîöñën îîtsélfën büt thé lààýöüt.ën ÎÎñvöîçés,ën brööçhürésën àñd sçîîéñtîfîçën pààpérsën mîx çöölümñs,ën tààblés,ën çààptîöñsën àñd fööötñötés,ën àñd rééàdérsën ééxpéçtën thé trààñslàtédën fîîlé tö lööök ééxàçtlýën lîîké thé öörîgîñàl.ën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b8",
+     "rect": [
+      76.8,
+      681.1,
+      296.6,
+      697.9
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Quarterly results by region",
+     "translation": "Qüüàrtérlýën réésültsën bý réégîöñën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b9",
+     "rect": [
+      77.0,
+      717.6,
+      116.2,
+      728.9
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Region",
+     "translation": "Réégîöñën",
+     "scale": 0.97,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b10",
+     "rect": [
+      220.6,
+      717.6,
+      269.3,
+      726.5
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Revenue",
+     "translation": "Réévéñüéën",
+     "scale": 0.97,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b11",
+     "rect": [
+      314.6,
+      717.4,
+      355.2,
+      726.5
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Growth",
+     "translation": "Grööwthën",
+     "scale": 0.97,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b12",
+     "rect": [
+      390.2,
+      717.4,
+      444.7,
+      726.5
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Comment",
+     "translation": "Çöömméñtën",
+     "scale": 0.97,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b13",
+     "rect": [
+      76.8,
+      742.8,
+      152.4,
+      752.2
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "North America",
+     "translation": "Nöörth ÀÀmérîçàën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b14",
+     "rect": [
+      220.1,
+      742.3,
+      252.5,
+      753.4
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "$4.2M",
+     "translation": "$4.2M",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b16",
+     "rect": [
+      390.2,
+      742.6,
+      616.6,
+      754.3
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Strong demand from healthcare customers",
+     "translation": "Strööñgën déémàñdën frööm hééàlthçàréën çüüstömérsën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b17",
+     "rect": [
+      77.0,
+      768.2,
+      114.2,
+      780.0
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Europe",
+     "translation": "ÉÉüröpéën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b19",
+     "rect": [
+      390.5,
+      768.2,
+      535.2,
+      780.0
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "New office opened in Berlin",
+     "translation": "Néw ööffîçéën ööpéñédën îñ Béérlîñën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b20",
+     "rect": [
+      76.3,
+      793.2,
+      137.8,
+      802.6
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Asia Pacific",
+     "translation": "ÀÀsîà Pààçîfîçën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b21",
+     "rect": [
+      219.8,
+      792.7,
+      252.5,
+      803.8
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "$2.7M",
+     "translation": "$2.7M",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b23",
+     "rect": [
+      390.7,
+      793.2,
+      563.0,
+      804.7
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Fastest growing market this year",
+     "translation": "Fààstéstën grööwîñgën mààrkétën thîîs ýééàr",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b24",
+     "rect": [
+      76.8,
+      818.6,
+      149.3,
+      828.0
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Latin America",
+     "translation": "Lààtîñ ÀÀmérîçàën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b25",
+     "rect": [
+      219.8,
+      818.2,
+      252.5,
+      829.2
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "$0.9M",
+     "translation": "$0.9M",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b27",
+     "rect": [
+      390.2,
+      818.4,
+      588.7,
+      830.2
+     ],
+     "align": "left",
+     "cell": true,
+     "source": "Currency headwinds offset new deals",
+     "translation": "Çüürréñçýën hééàdwîñdsën ööffsétën ñéw dééàls",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b28",
+     "rect": [
+      77.0,
+      857.8,
+      407.3,
+      869.0
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Note: figures are unaudited and rounded to one decimal place.",
+     "translation": "Nööté: fîîgürésën àré üüñàüdîtédën àñd rööüñdédën tö öñé dééçîmàlën plààçé.ën",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b29",
+     "rect": [
+      68.6,
+      1046.6,
+      211.2,
+      1057.0
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Confidential - internal use only",
+     "translation": "Çööñfîdéñtîàlën - îîñtérñàlën üsé ööñlý",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    },
+    {
+     "id": "p1b30",
+     "rect": [
+      672.0,
+      1046.9,
+      723.4,
+      1057.0
+     ],
+     "align": "left",
+     "cell": false,
+     "source": "Page 1 of 1",
+     "translation": "Pààgé 1 öf 1",
+     "scale": 1.0,
+     "condensed": false,
+     "overflow": false
+    }
+   ]
+  }
+ ]
+}

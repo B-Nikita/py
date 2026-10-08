@@ -1,0 +1,5 @@
+samples/scanned_page.png
+samples/output/*.png
+*.cache.json
+*.work.pdf
+__pycache__/
